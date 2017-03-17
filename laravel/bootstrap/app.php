@@ -15,6 +15,8 @@ $app = new Illuminate\Foundation\Application(
     realpath(__DIR__.'/../')
 );
 
+require base_path('src/Infrastructure/Di/Laravel/di.php');
+
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
